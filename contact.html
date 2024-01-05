@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="contact.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-------------------NAVIGATION------------------->
+    <nav>
+      <img src="Images/driving-lessons-logo.png" alt="" />
+      <div class="navigation">
+        <ul class="nav_links">
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a class="nav_link" href="/">Начало</a></li>
+          <li><a class="nav_link" href="/about-us.html">За нас</a></li>
+          <li><a class="nav_link" href="/courses.html">Курсове</a></li>
+          <li><a class="nav_link" href="/contact.html">Контакти</a></li>
+        </ul>
+        <img id="menu-btn" src="Images/IconMenu.png" alt="" />
+      </div>
+    </nav>
+    <!-------------------HOME------------------->
+    <section id="contact-home">
+      <h2>КОНТАКТИ</h2>
+      <p>Доверете се на опита!</p>
+    </section>
+
+    <section id="contact">
+      <div class="getin">
+        <h2>За връзка с нас</h2>
+        <p>Имаш нужда от помощ? Попълни формата и ние ще се отзовем!</p>
+
+        <div class="getin-details">
+          <div>
+            <h3>Местоположение</h3>
+            <i class="fa-solid fa-shop get"></i>
+            <p>Варна,бул. Ян Хунияди 33</p>
+          </div>
+
+          <div>
+            <h3>Телефон</h3>
+            <i class="fa fa-phone get"></i>
+            <p>
+              088 730 0330 <br />
+              086 489 2794
+            </p>
+          </div>
+
+          <div>
+            <h3>Имейл</h3>
+            <i class="fa-solid fa-envelope get"></i>
+            <p>avtoshkola@gmail.com</p>
+          </div>
+          <div>
+            <h3>Последвайте ни</h3>
+            <div class="pro-links">
+              <i
+                class="fab fa-facebook-f"
+                onclick="openSocialMedia('https://www.facebook.com/')"
+              ></i>
+              <i
+                class="fab fa-instagram"
+                onclick="openSocialMedia('https://www.instagram.com/')"
+              ></i>
+              <i
+                class="fab fa-linkedin-in"
+                onclick="openSocialMedia('https://www.linkedin.com/')"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form">
+        <h4>Свържи се с нас</h4>
+        <p>Попълни данните си тук:</p>
+        <div class="form-row">
+          <input type="text" placeholder="Име" />
+          <input type="text" placeholder="Имейл" />
+        </div>
+        <div class="form-col">
+          <input type="text" placeholder="Тема" />
+        </div>
+        <div class="form-col">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="8"
+            placeholder="Как можем да сме от помощ?"
+          ></textarea>
+        </div>
+        <div class="form-col">
+          <button>Изпрати съобщение</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d186126.18272261095!2d27.942908550000002!3d43.20484109999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a4538baaf3d7a1%3A0x5727941c71a58b7c!2z0JLQsNGA0L3QsA!5e0!3m2!1sbg!2sbg!4v1704366725210!5m2!1sbg!2sbg"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <!-------------------FOOTER------------------->
+    <footer>
+      <div class="footer-col">
+        <h3>ЗА НАС</h3>
+        <p>
+          Фирма предоставяща <br />
+          на всички кандидат-шофьори <br />
+          избор на шофьорски курс <br />
+          от всички категории <br />
+          за управление на <br />
+          моторни превозни средства.
+        </p>
+      </div>
+      <div class="footer-col">
+        <h3>Категории</h3>
+        <li>Категория А</li>
+        <li>Категория А1</li>
+        <li>Категория А2</li>
+        <li>Категория Б1</li>
+        <li>Категория Б (Автоматик)</li>
+        <li>Категория С</li>
+        <li>Категория С + Е</li>
+      </div>
+      <div class="footer-col">
+        <h3>Услуги</h3>
+        <li>Шофьорски курсове</li>
+        <li>ADR курсове</li>
+        <li>Професионална компетентност</li>
+        <li>Психологически изследвания</li>
+        <li>Център за професионално обучение</li>
+      </div>
+      <div class="footer-col">
+        <h3>Свържи се с нас</h3>
+        <div class="subscribe">
+          <input type="text" name="" placeholder="Имейл" id="" />
+          <!-- <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Напиши съобщение"
+          ></textarea> -->
+          <a class="red" href="#">Изпрати</a>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright &copy; 2024 All rights reseved | This website si made by
+          Driving School
+        </p>
+        <div class="pro-links">
+          <i
+            class="fab fa-facebook-f"
+            onclick="openSocialMedia('https://www.facebook.com/')"
+          ></i>
+          <i
+            class="fab fa-instagram"
+            onclick="openSocialMedia('https://www.instagram.com/')"
+          ></i>
+          <i
+            class="fab fa-linkedin-in"
+            onclick="openSocialMedia('https://www.linkedin.com/')"
+          ></i>
+        </div>
+      </div>
+    </footer>
+    <button id="scrollToTopBtn" aria-label="Scroll to Top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <script defer src="nav-links.js"></script>
+    <script defer src="contact.js"></script>
+  </body>
+</html>

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-------------------NAVIGATION------------------->
+    <nav>
+      <img src="Images/driving-lessons-logo.png" alt="" />
+      <div class="navigation">
+        <ul class="nav_links">
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a class="active" class="nav_link" href="/">Начало</a></li>
+          <li><a class="nav_link" href="/about-us.html">За нас</a></li>
+          <li><a class="nav_link" href="/courses.html">Курсове</a></li>
+          <li><a class="nav_link" href="/contact.html">Контакти</a></li>
+        </ul>
+        <img id="menu-btn" src="Images/IconMenu.png" alt="" />
+      </div>
+    </nav>
+    <!-------------------HOME------------------->
+    <section id="home">
+      <h2>Добре дошли в "Шофьорска Академия"!</h2>
+      <p>
+        В "Шофьорска Академия" съчетаваме страстта си към шофирането с
+        ангажираността си към безопасността и компетентността. Нашата мисия е да
+        ви предоставим не само ключовите умения за управление на превозните
+        средства, но и да ги заложим в основите на вашия шофьорски стил.
+      </p>
+      <div class="btn">
+        <a class="grey" href="#" id="learnMoreBtn">Научи повече</a>
+        <a class="red" href="#" id="coursesBtn">Курсове</a>
+      </div>
+    </section>
+    <!-------------------FEATURES------------------->
+    <div class="scroll-fade">
+      <section id="features">
+        <h1>Какво предлагаме</h1>
+        <div class="fea-base">
+          <div class="fea-box">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+            <h3>СЪОБРАЗЕНИ С АНГАЖИМЕНТИТЕ НА КУРСИСТИТЕ ЧАСОВЕ</h3>
+            <p>
+              Ние осъзнаваме, че работните и семейни ангажименти отнемат цялото
+              ви време и делничните ви дни са натоварени, затова работим през
+              всички уикенди.
+            </p>
+          </div>
+          <div class="fea-box">
+            <i class="fa-solid fa-chart-column"></i>
+            <h3>ОБУЧАВАМЕ ВСИЧКИ ВЪЗРАСТИ НАД 16 ГОДИНИ</h3>
+            <p>
+              Ние не поставяме условия и възрастови ограничения. Всички са добре
+              дошли при нас, стига възрастта да е съобразена със
+              законодателството на република България.
+            </p>
+          </div>
+          <div class="fea-box">
+            <i class="fa-solid fa-person"></i>
+            <h3>ИНДИВИДУАЛЕН ПОДХОД КЪМ ВСЕКИ КУРСИСТ</h3>
+            <p>
+              Всеки човек е с различен характер и ние осъзнаваме това.
+              Характерите на нашите инструктори също са различни и можете да
+              бъдете спокойни, че ще подберем онзи, чийто характер е най-близо
+              до вашия.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-------------------COURSES------------------->
+    <div class="scroll-fade">
+      <section id="course">
+        <h1>Нашите най-търсени шофьорски курсове</h1>
+        <div class="course-box">
+          <div class="courses">
+            <img src="Images/courses1.jpg" alt="" />
+            <div class="details">
+              <span>Обновено 21/12/23</span>
+              <h6>Категория Б</h6>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(539)</span>
+              </div>
+            </div>
+            <div class="cost">1000лв.</div>
+          </div>
+          <div class="courses">
+            <img src="Images/courses2.jpg" alt="" />
+            <div class="details">
+              <span>Обновено 21/12/23</span>
+              <h6>Категория Б Автоматик</h6>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(539)</span>
+              </div>
+            </div>
+            <div class="cost">750лв.</div>
+          </div>
+          <div class="courses">
+            <img src="Images/courses3.jpg" alt="" />
+            <div class="details">
+              <span>Обновено 21/12/23</span>
+              <h6>Категория А</h6>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(539)</span>
+              </div>
+            </div>
+            <div class="cost">600лв.</div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-------------------REGISTRATION------------------->
+    <div class="scroll-fade">
+      <section id="registration">
+        <div class="reminder">
+          <p>Вземи 10 онлайн урока БЕЗПЛАТНО!</p>
+          <h2>Регистрирай се, за да получиш тези уроци</h2>
+          <div class="time">
+            <div class="date">
+              18 <br />
+              дни
+            </div>
+            <div class="date">
+              23 <br />
+              часа
+            </div>
+            <div class="date">
+              06 <br />
+              минути
+            </div>
+            <div class="date">
+              58 <br />
+              секунди
+            </div>
+          </div>
+        </div>
+        <div class="form">
+          <h3>Създай акаунт, БЕЗПЛАТНО!</h3>
+          <input type="text" placeholder="Име" name="" id="" />
+          <input type="email" placeholder="Имейл" name="" id="" />
+          <input type="text" placeholder="Телефон" name="" id="" />
+          <div class="btn">
+            <a class="red" href="#">Създай</a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-------------------PROFILES------------------->
+    <div class="scroll-fade">
+      <section id="experts">
+        <h1>Нашите инструктори</h1>
+
+        <div class="expert-box">
+          <div class="profile">
+            <img src="Images/expert-1.png" alt="" />
+            <h3>Ема Статева</h3>
+            <p>Инструктор - Категория Б, Б(Автоматик)</p>
+            <div class="pro-links">
+              <i
+                class="fab fa-facebook-f"
+                onclick="openSocialMedia('https://www.facebook.com/')"
+              ></i>
+              <i
+                class="fab fa-instagram"
+                onclick="openSocialMedia('https://www.instagram.com/')"
+              ></i>
+              <i
+                class="fab fa-linkedin-in"
+                onclick="openSocialMedia('https://www.linkedin.com/')"
+              ></i>
+            </div>
+          </div>
+          <div class="profile">
+            <img src="Images/expert-2.png" alt="" />
+            <h3>Радослав Крумов</h3>
+            <p>Инструктор - Категория А, Б, С, С + Е</p>
+            <div class="pro-links">
+              <i
+                class="fab fa-facebook-f"
+                onclick="openSocialMedia('https://www.facebook.com/')"
+              ></i>
+              <i
+                class="fab fa-instagram"
+                onclick="openSocialMedia('https://www.instagram.com/')"
+              ></i>
+              <i
+                class="fab fa-linkedin-in"
+                onclick="openSocialMedia('https://www.linkedin.com/')"
+              ></i>
+            </div>
+          </div>
+          <div class="profile">
+            <img src="Images/expert-3.png" alt="" />
+            <h3>Жасмина Лилова</h3>
+            <p>Инструктор - Категория А, Б, С, С + Е</p>
+            <div class="pro-links">
+              <i
+                class="fab fa-facebook-f"
+                onclick="openSocialMedia('https://www.facebook.com/')"
+              ></i>
+              <i
+                class="fab fa-instagram"
+                onclick="openSocialMedia('https://www.instagram.com/')"
+              ></i>
+              <i
+                class="fab fa-linkedin-in"
+                onclick="openSocialMedia('https://www.linkedin.com/')"
+              ></i>
+            </div>
+          </div>
+          <!-- <div class="profile">
+          <img src="Images/expert-4.png" alt="" />
+          <h6>Петър Ангелов</h6>
+          <p>Инструктор - Категория А, Б, С</p>
+          <div class="pro-links">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+        </div> -->
+        </div>
+      </section>
+    </div>
+    <!-------------------FOOTER------------------->
+    <div class="scroll-fade">
+      <footer>
+        <div class="footer-col">
+          <h3>ЗА НАС</h3>
+          <p>
+            Фирма предоставяща <br />
+            на всички кандидат-шофьори <br />
+            избор на шофьорски курс <br />
+            от всички категории <br />
+            за управление на <br />
+            моторни превозни средства.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h3>Категории</h3>
+          <li>Категория А</li>
+          <li>Категория А1</li>
+          <li>Категория А2</li>
+          <li>Категория Б1</li>
+          <li>Категория Б (Автоматик)</li>
+          <li>Категория С</li>
+          <li>Категория С + Е</li>
+        </div>
+        <div class="footer-col">
+          <h3>Услуги</h3>
+          <li>Шофьорски курсове</li>
+          <li>ADR курсове</li>
+          <li>Професионална компетентност</li>
+          <li>Психологически изследвания</li>
+          <li>Център за професионално обучение</li>
+        </div>
+        <div class="footer-col">
+          <h3>Свържи се с нас</h3>
+          <div class="subscribe">
+            <input type="text" name="" placeholder="Имейл" id="" />
+            <!-- <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Напиши съобщение"
+          ></textarea> -->
+            <a class="red" href="#">Изпрати</a>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>
+            Copyright &copy; 2024 All rights reseved | This website si made by
+            Driving School
+          </p>
+          <div class="pro-links">
+            <i
+              class="fab fa-facebook-f"
+              onclick="openSocialMedia('https://www.facebook.com/')"
+            ></i>
+            <i
+              class="fab fa-instagram"
+              onclick="openSocialMedia('https://www.instagram.com/')"
+            ></i>
+            <i
+              class="fab fa-linkedin-in"
+              onclick="openSocialMedia('https://www.linkedin.com/')"
+            ></i>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <button id="scrollToTopBtn" aria-label="Scroll to Top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <script defer src="nav-links.js"></script>
+    <script defer src="index.js"></script>
+  </body>
+</html>
