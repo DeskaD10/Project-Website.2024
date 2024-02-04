@@ -243,6 +243,14 @@ footer li {
   cursor: pointer;
   transition: 0.3s ease;
 }
+footer li a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+footer li:hover a {
+  color: rgb(255, 0, 0);
+}
 footer li:hover {
   color: rgb(255, 0, 0);
 }
