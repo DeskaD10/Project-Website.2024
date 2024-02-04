@@ -51,7 +51,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   const scrollToTopBtn = document.getElementById("scrollToTopBtn");
-
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
